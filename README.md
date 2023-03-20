@@ -146,10 +146,10 @@ To run the project, execute the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [] Add the authentication for the app💯
-- [] Add the authorization for the app
-- [] Add the test for it😊
-- [] Add the UI for the project💯
+- [ ] Add the authentication for the app💯
+- [ ] Add the authorization for the app
+- [ ] Add the test for it😊
+- [ ] Add the UI for the project💯
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
