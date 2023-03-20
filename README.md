@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Blog App] <a name="about-project"></a>
+# 📖 [Budget App] <a name="about-project"></a>
 
-> In this project, The Blog app will be a classic example of a blog website. I will create a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.
+> In this project, building a mobile web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.🪄🎈
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,14 +59,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-- [ ] Create a new app. Give it a meaningful name.
-- [ ] Initialize my project with Git.💯
-- [ ] Build my project schema.💯
-    - Create and run the necessary migration files.
-      - Table and column names match the ERD diagram.
-      - note: photo for users table  be a link to an image
-      - Foreign keys be included.
-      - All columns that are foreign keys have a corresponding index.👌
+- [ ] Run a program using the command line.👌
+- [ ] Use ruby gems as a software package system.
+- [ ] Install Ruby on Rails framework.
+- [ ] Understand Rails RESTful design and router.💯
+- [ ] Use controllers to handle requests and render empty views.👌
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,8 +100,8 @@ Example commands:
 
 ```sh
 
-  git clone https://github.com/osamaashraf6/Blog-App
-  cd Blog-App
+  git clone  https://github.com/osamaashraf6/Budget-App
+  cd Budget-App
 ```
 ### Install
 
@@ -142,21 +139,17 @@ To run the project, execute the following command:
 - Twitter: [Osama Ashraf](https://twitter.com/OsamaAshraf578?t=l75KjrhQgK4h-vSPfgk1gA&s=08)
 - LinkedIn: [Osama Ashraf](https://www.linkedin.com/in/osama-salem-2a046b203)
 
-👤 **Khomotso Mkansi**
-
-- GitHub: [@githubhandle](https://momotsow.github.io/microverse-portfolio/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/khomotso-prudence-mkansi/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Add the authentication for the app💯
-> Add the authorization for the app
-> Add the test for it😊
-> Add the UI for the project💯
+
+- [] Add the authentication for the app💯
+- [] Add the authorization for the app
+- [] Add the test for it😊
+- [] Add the UI for the project💯
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,7 +189,7 @@ I would like to thank Microverse for this opportunity.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/osamaashraf6/Blog-App/blob/dev/LICENSE) licensed.
+This project is [MIT](https://github.com/osamaashraf6/Budget-App/blob/dev/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
