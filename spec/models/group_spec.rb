@@ -7,7 +7,7 @@ RSpec.describe Group, type: :model do
       @group = Group.new(name: 'salem', icon: 'icon of osama', user_id: @user.id)
     end
     it 'test the group' do
-    expect(@group).to_not be_valid
+      expect(@group).to_not be_valid
     end
     it 'if the name is present' do
       @group.name = nil
@@ -17,11 +17,9 @@ RSpec.describe Group, type: :model do
     it 'if the name is equal the name ' do
       expect(@group.name).to eql('salem')
     end
-  
+
     it 'if the icon is equal the icon' do
       expect(@group.icon).to eql('icon of osama')
     end
-  
-
   end
 end
