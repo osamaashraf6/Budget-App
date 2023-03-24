@@ -1,0 +1,24 @@
+<header class="d-flex justify-content-between align-items-center header">
+  <%= link_to image_tag("https://img.icons8.com/officel/344/back.png"),groups_path, class: "back_btn" %>
+  <h5>New Transaction</h5>
+  <div></div>
+</header>
+<div class="mx-2">
+  <%= form_with model: @entity do |form| %>
+    <div>
+      <%= form.label :name, style: "display: block" %>
+      <%= form.text_field :name,class: "form-control" %>
+    </div>
+    <div class="form-group">
+      <%= form.label :amount, style: "display: block" %>
+      <%= form.number_field :amount, in: 1.0..1000.0, step: 0.5,class: "form-control" %>
+    </div>
+    <div class="form-group">
+      <%= form.label :group_id %>
+      <%= form.collection_select :group_id, @groups, :id, :name,:prompt => true, class: 'form-select'  %>
+    </div>
+    <div class="form-group">
+      <%= form.submit %>
+    </div>
+  <% end %>
+</div>
