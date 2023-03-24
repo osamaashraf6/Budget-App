@@ -1,0 +1,12 @@
+<div style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;" class="py-3 px-2 m-3">
+  <div  id="<%= dom_id group %>" class=" d-flex justify-content-evenly categ">
+    <div class="d-flex gap-3">
+      <img style="width:10%" src="<%=group.icon%>" alt="icon"/>
+      <div><%= group.name.capitalize %></div>
+    </div>
+    <%# < class="d-flex ">  $<%= total_amount_helper(Entity.all.where(group_id:group.id)) %>
+    <div class="d-flex ">  <%= number_to_currency(Entity.all.where(group_id:group.id).sum(:amount)) %></div>
+
+  </div>
+  <div class="d-flex justify-content-between"><small class="mx-5"> <%= group.created_at.strftime("%e %b %Y") %></small>  <%= link_to image_tag("https://img.icons8.com/ios/344/right--v1.png"),group, class: "back_btn" %></div>
+</div>
