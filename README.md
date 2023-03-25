@@ -76,6 +76,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Loom Video -->
+
+## 🚀 Loom Video <a name="live-demo"></a>
+
+
+- [Loom Video Link](https://rails-m2sk.onrender.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
