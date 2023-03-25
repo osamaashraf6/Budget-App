@@ -126,7 +126,7 @@ body {
 .date {
   padding: 9px;
 
-  /* background-color: brown; */
+
 }
 
 .bottom {
@@ -143,4 +143,8 @@ body {
   position: relative;
   bottom: -326px;
   width: 100%;
+}
+.separate{
+  border-bottom: 1px solid;
+    margin-bottom: 15px;
 }

@@ -10,7 +10,7 @@
 <% end %>
 <%= render @group %>
 <% @entities.each do |entity| %>
-  <div style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;background:#fffdf4;">
+  <div style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;background:#fffdf4;" class="separate">
     <div><%= entity.name.capitalize %></div>
     <div>$<%= entity.amount %></div>
   </div>
