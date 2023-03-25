@@ -4,7 +4,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Blog App\] ](#-blog-app-)
+- [📖 \[Budget App\] ](#-blog-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -193,8 +193,8 @@ If you like this project just give me a star to the project😊
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank Microverse for this opportunity.
+- Credit to [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance [the author of the original design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=), as required by [the Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/).
+- I would like to thank Microverse for this opportunity.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
