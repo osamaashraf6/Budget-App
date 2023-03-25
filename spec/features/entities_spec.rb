@@ -11,24 +11,19 @@ RSpec.describe 'group index page', type: :feature do
     fill_in 'Email', with: 'osama@gmail.com'
     fill_in 'Password', with: '654321'
     click_button 'Log in'
-    visit groups_path
+    visit group_path(@group.id)
   end
-  # =================================================================
+  describe 'tests for view groups#show' do
+    it 'spec for show page ' do
+      expect(page).to have_content 'Transactions'
+      expect(page).to have_content 'Hello'
 
-  describe 'tests for view groups#index' do
-    it 'groups title' do
-      expect(page).to have_content 'groups'
+      # expect(page).to have_content 'Entity'
+      expect(page).to have_content 'New transaction'
     end
 
-it 'should display the category name' do
-  expect(page).to have_content('Hello')
-end
-it 'should display the category name' do
-  expect(page).to have_content('New group')
-end
-
-it 'should display a new category button' do
-  expect(page).to have_content(@entity.amount)
-end
+    it 'see the total amount of entitys' do
+      expect(page).to have_content(@entity.amount)
+    end
   end
 end
