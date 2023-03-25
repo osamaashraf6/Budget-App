@@ -13,3 +13,119 @@
  *= require_tree .
  *= require_self
  */
+ *{
+    padding: 0;
+    margin: 0;
+ }
+body{
+    background-color: rgb(233, 244, 244);
+}
+
+.budget, .signup{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.login{
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    border-radius: 5px;
+    color: #5fb523;
+    display: block;
+    margin: auto;
+    width: 123px;
+    margin-bottom: 15px;
+}
+
+.register{
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    background-color: #5fb523;
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 15px;
+}
+#new_user{
+    border-radius: 5px;
+}
+#new_user > .field{
+    margin-bottom: 15px;
+}
+
+#new_user > .field > label{
+    display: block;
+    padding: 10px;
+}
+
+#new_user > .field  > input, .form-control{
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: 7px;
+    width: 91%;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.col{
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding-top: 14px;
+    box-shadow: 0 5px 20px #c5cfdb;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3778c2;
+    padding: 13px;
+    margin-bottom: 30px;
+}
+
+.toolbar2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.toolbar2 > *{
+    margin-left: 30px;
+}
+.back_btn > img{
+    width: 14%;
+}
+.toolbar__groups{
+    padding: 14px;
+    color: #fff;
+}
+.newgroup{
+    display: grid;
+    place-items: center;
+    background-color: #e2dede;
+    padding: 50px;
+}
+.date{
+    padding: 9px;
+    /* background-color: brown; */
+}
+.bottom{
+    position: relative;
+    bottom: -95px;
+}
+
+.bottom2 {
+    position: relative;
+    bottom: -337px;
+}
+
+.bottom3 {
+    position: relative;
+    bottom: -326px;
+    width: 100%;
+}
