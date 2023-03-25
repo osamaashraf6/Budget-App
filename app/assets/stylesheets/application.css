@@ -125,8 +125,6 @@ body {
 
 .date {
   padding: 9px;
-
-
 }
 
 .bottom {
@@ -144,7 +142,8 @@ body {
   bottom: -326px;
   width: 100%;
 }
-.separate{
+
+.separate {
   border-bottom: 1px solid;
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
