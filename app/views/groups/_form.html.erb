@@ -1,0 +1,26 @@
+<div class="newgroup">
+  <%= form_with(model: group) do |form| %>
+    <% if group.errors.any? %>
+      <div>
+        <h2><%= pluralize(group.errors.count, "error") %> banned  group from saved</h2>
+        <ul>
+          <% group.errors.each do |error| %>
+            <li><%= error.full_message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+    <div>
+      <%= form.label :name %>
+      <%= form.text_field :name ,class: "form-control"%>
+    </div>
+    <div>
+      <%= form.label :icon  %>
+      <%= form.select :icon, {"🛒" => "https://cdn-icons-png.flaticon.com/512/891/891462.png", "🎮" =>"https://cdn-icons-png.flaticon.com/512/808/808439.png", "🚌" => "https://cdn-icons-png.flaticon.com/512/1034/1034795.png","💄"=>"https://img.icons8.com/external-wanicon-flat-wanicon/344/external-make-up-beauty-cosmetics-wanicon-flat-wanicon.png"},
+       {} %>
+    </div>
+    <div class="login">
+      <%= form.submit%>
+    </div>
+  <% end %>
+</div>

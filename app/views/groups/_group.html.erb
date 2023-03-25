@@ -1,0 +1,13 @@
+<div style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+  <div  id="<%= dom_id group %>" class="col">
+    <div class="toolbar2">
+      <img style="width:10%" src="<%=group.icon%>" />
+      <div><%= group.name.capitalize %></div>
+       <div>  <%= number_to_currency(Entity.all.where(group_id:group.id).sum(:amount)) %></div>
+       <%= link_to image_tag("https://img.icons8.com/ios/344/right--v1.png"),group, class: "back_btn" %>
+    </div>
+    <div class="date"> <%= group.created_at.strftime("%e %b %Y") %> </div>
+
+  </div>
+ 
+</div>

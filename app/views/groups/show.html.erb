@@ -1,0 +1,22 @@
+<header>
+ <div class="toolbar">
+  <%= link_to image_tag("https://img.icons8.com/officel/344/back.png"),groups_path, class: "back_btn" %>
+  <h5 class="toolbar__groups">Transactions</h5>
+ </div>
+  <div></div>
+</header>
+<% if flash[:notice] %>
+  <p><%= notice %></p>
+<% end %>
+<%= render @group %>
+<% @entities.each do |entity| %>
+  <div style="box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;background:#fffdf4;" class="separate">
+    <div><%= entity.name.capitalize %></div>
+    <div>$<%= entity.amount %></div>
+  </div>
+<% end %>
+<div>
+  <div>
+    <%= link_to "New transaction", new_entity_path, class: 'register bottom2' %>
+  </div>
+</div>
