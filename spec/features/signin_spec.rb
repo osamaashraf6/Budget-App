@@ -6,7 +6,7 @@ RSpec.describe 'Login page', type: :feature do
     visit user_session_path
   end
   describe 'tests for view login' do
-    it 'I can see the username and password inputs and the Submit button.' do
+    it 'username and password and submit.' do
       expect(page).to have_field(type: 'email')
       expect(page).to have_field(type: 'password')
       expect(page).to have_button(type: 'submit')
@@ -21,14 +21,12 @@ RSpec.describe 'Login page', type: :feature do
       expect(page).to have_content 'groups'
     end
 
-    it 'with incorrect data, I am redirected to the sign in page' do
+    it ' wrong data, redirect to the sign in' do
       visit new_user_session_path
       fill_in 'Email', with: 'try@email.com'
       fill_in 'Password', with: 'password'
       click_button 'Log in'
       expect(current_path).to eq '/users/sign_in'
     end
-
-   
   end
 end
