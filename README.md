@@ -81,7 +81,7 @@
 ## 🚀 Loom Video <a name="live-demo"></a>
 
 
-- [Loom Video Link](https://rails-m2sk.onrender.com)
+- [Loom Video Link](https://www.loom.com/share/06a9918f394847bfb15e159cf9dcc5c1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
