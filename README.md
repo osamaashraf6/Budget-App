@@ -24,7 +24,7 @@
 
 # 📖 [Budget App] <a name="about-project"></a>
 
-> In this project, building a mobile web application where you can manage your budget: you have a list of transactions associated with a category so that you can see how much money you spent and on what.🪄🎈
+- A budget management app built with Rails and Devise gem, with a clean and user-friendly interface designed with CSS and HTML. Users can create an account, log in, and manage their expenses and income. The app also features a dashboard displaying users' current budget status, including charts and graphs that show the breakdown of their expenses🪄🎈
 
 ## 🛠 Built With <a name="built-with"></a>
 
